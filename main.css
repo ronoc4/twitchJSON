@@ -1,0 +1,46 @@
+span.circle {
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+    background-color: #5c5457;
+    border: 1px solid #5c5457;
+    float: left;
+    margin: 20px 5px 5px 0px;
+}
+
+#tOnline span.circle, span.circleMain {
+    background-color: #00ff4e;
+}
+
+#tOffline span.circle, .circleMain {
+    background-color: crimson;
+}
+
+i.fa.fa-twitch.fa-3x {
+    color: #6441A5;
+    padding-top: 7px;
+}
+
+.headerIcon {
+    padding: 0px 5px 0px;
+}
+
+.headers p{
+    text-decoration: underline;
+    font-size: 18px;
+}
+
+#logo img{
+    height: 100px;
+    width: 100px;
+}
+
+.circleMain {
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+    background-color: #5c5457;
+    border: 1px solid #5c5457;
+    float: left;
+    margin: 10px 5px 5px 0px;
+}

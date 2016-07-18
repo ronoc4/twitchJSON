@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link href='https://www.twitch.tv/favicon.ico' rel='shortcut icon' type='image/x-icon'>
+    <script type="text/javascript" src="dist/js/vendor/jquery-1.12.0.min.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="main.css">
+    <script src="https://use.fontawesome.com/afe208580e.js"></script>
+    <script type="text/javascript" src="main.js"></script>
+    <title>Twitch Streamer App</title>
+</head>
+<body>
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <div class="headerIcon">
+                    <i class="fa fa-twitch fa-3x" aria-hidden="true"></i>
+                    <a class="navbar-brand" href="#">Twitch Streamer Status</a>
+                </div>
+            </div>
+            <div id="navbar" class="collapse navbar-collapse">
+                <ul class="nav navbar-nav">
+                    <li class="active" id="tAll"><span class="circle"></span><a>All</a></li>
+                    <li id="tOnline"><span class="circle"></span><a>Online</a></li>
+                    <li id="tOffline"><span class="circle"></span><a>Offline</a></li>
+                </ul>
+            </div>
+            <!--/.nav-collapse -->
+        </div>
+    </nav>
+
+    <!-- Main jumbotron for a primary marketing message or call to action -->
+    <div class="jumbotron">
+        <div class="container">
+            <h3>Twitchtv JSON API</h3>
+        </div>
+    </div>
+
+
+    <!-- Start content -->
+    <div class="container">
+        <div class="row headers">
+            <div class="col-md-4" >
+                <h2>Logo</h2>
+                <span id="logo"></span>
+            </div>
+            <div class="col-md-4">
+                <h2>Display Name</h2>
+                <span id="name"></span>
+            </div>
+            <div class="col-md-4">
+                <h2>Status</h2>
+                <span id="status"></span>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
