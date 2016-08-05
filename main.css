@@ -8,11 +8,11 @@ span.circle {
     margin: 20px 5px 5px 0px;
 }
 
-#tOnline span.circle, span.circleMain {
+#tOnline span.circle, span.circleOnline {
     background-color: #00ff4e;
 }
 
-#tOffline span.circle, .circleMain {
+#tOffline span.circle, .circleOffline {
     background-color: crimson;
 }
 
@@ -31,16 +31,29 @@ i.fa.fa-twitch.fa-3x {
 }
 
 #logo img{
-    height: 100px;
-    width: 100px;
+    max-width: 50px;
+    max-height: 50px;
+    border-radius: 50%;
+    border: 3px solid #e1e1e6;
 }
 
-.circleMain {
+span.circleOffline, span.circleOnline {
     height: 10px;
     width: 10px;
     border-radius: 50%;
     background-color: #5c5457;
     border: 1px solid #5c5457;
     float: left;
-    margin: 10px 5px 5px 0px;
+    margin: 5px 5px 5px 0px;
+}
+
+.logo img {
+    max-width: 50px;
+    max-height: 50px;
+    border-radius: 50%;
+    border: 3px solid #e1e1e6;
+}
+
+.row {
+    margin-left: 0px;
 }
